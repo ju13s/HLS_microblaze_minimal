@@ -84,7 +84,7 @@ int main()
     //get the data from the ip core register
     data_result = XMyipadder_Get_sum( &myIpAdder );
 
-    print( data_result );
+    //print( data_result );
 
 
 

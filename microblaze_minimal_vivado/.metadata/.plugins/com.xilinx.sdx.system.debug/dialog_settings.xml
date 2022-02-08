@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="test123_system-imgFile" value=""/>
+	<item key="test123_system-offSet" value=""/>
+	<item key="test123_system-initFile" value=""/>
+	<item key="test123_system-flashType" value="s25fl128sxxxxxx0-spi-x1_x2_x4"/>
+	<item key="test123_system-verifyFlash" value="false"/>
+	<item key="test123_system-blankCheck" value="true"/>
+	<item key="test123_system-device" value="Auto Detect"/>
+	<item key="test123_system-target" value="Local"/>
+	<item key="programflash.hwplatform" value="test123_system"/>
+</section>

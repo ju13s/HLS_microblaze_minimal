@@ -1,0 +1,702 @@
+INFO: [HLS 200-10] Running 'F:/Xilinx/Vitis_HLS/2020.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'Jules' on host 'jules-pc' (Windows NT_amd64 version 6.2) on Sun Feb 06 02:26:53 +0100 2022
+INFO: [HLS 200-10] In directory 'C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite'
+Sourcing Tcl script 'C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/export.tcl'
+INFO: [HLS 200-1510] Running: open_project proj_axi_lite 
+INFO: [HLS 200-10] Opening project 'C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite'.
+INFO: [HLS 200-1510] Running: set_top myIPAdder 
+INFO: [HLS 200-1510] Running: add_files example.cpp 
+INFO: [HLS 200-10] Adding design file 'example.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb example_test.cpp -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'example_test.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7a35ti-csg324-1L'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2020.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1464] Running solution command: config_export -version=0.0.0
+INFO: [HLS 200-1510] Running: set_part xc7a35ti-csg324-1L 
+INFO: [HLS 200-1510] Running: create_clock -period 100MHz -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl -version 0.0.0 
+INFO: [HLS 200-1510] Running: set_directive_top -name myIPAdder myIPAdder 
+INFO: [HLS 200-1510] Running: export_design -flow syn -rtl vhdl -format ip_catalog -version 0.0.0 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2020.2.2 (64-bit)
+  **** SW Build 3118627 on Tue Feb  9 05:14:06 MST 2021
+  **** IP Build 3115676 on Tue Feb  9 10:48:11 MST 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2020.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Sun Feb  6 02:27:07 2022...
+INFO: [IMPL 213-8] Starting RTL evaluation using Vivado ...
+WARNING: [IMPL 213-201] IO timing constraints are not applied without adding IO buffers.
+
+C:\Users\jules\.Xilinx\vitis_hls\2020.2.2\vitis_hls_examples\HLS-Tiny-Tutorials\interface_axi_lite\proj_axi_lite\solution1\impl\vhdl>F:/Xilinx/Vivado/2020.2/bin/vivado  -notrace -mode batch -source run_vivadosyn.tcl   || exit $? 
+
+****** Vivado v2020.2.2 (64-bit)
+  **** SW Build 3118627 on Tue Feb  9 05:14:06 MST 2021
+  **** IP Build 3115676 on Tue Feb  9 10:48:11 MST 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source run_vivadosyn.tcl -notrace
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2020.2/data/ip'.
+Wrote  : <C:\Users\jules\.Xilinx\vitis_hls\2020.2.2\vitis_hls_examples\HLS-Tiny-Tutorials\interface_axi_lite\proj_axi_lite\solution1\impl\vhdl\project.srcs\sources_1\bd\bd_0\bd_0.bd> 
+INFO: Updating /s_axi_BUS_A CONFIG.ADDR_WIDTH to 32
+Slave segment '/hls_inst/s_axi_BUS_A/Reg' is being assigned into address space '/s_axi_BUS_A' at <0x0000_0000 [ 64K ]>.
+Wrote  : <C:\Users\jules\.Xilinx\vitis_hls\2020.2.2\vitis_hls_examples\HLS-Tiny-Tutorials\interface_axi_lite\proj_axi_lite\solution1\impl\vhdl\project.srcs\sources_1\bd\bd_0\bd_0.bd> 
+VHDL Output written to : C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/synth/bd_0.vhd
+VHDL Output written to : C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/sim/bd_0.vhd
+VHDL Output written to : C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/hdl/bd_0_wrapper.vhd
+make_wrapper: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1115.840 ; gain = 0.000
+Using BD top: bd_0_wrapper
+INFO: [BD 41-1662] The design 'bd_0.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/synth/bd_0.vhd
+VHDL Output written to : C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/sim/bd_0.vhd
+VHDL Output written to : C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/hdl/bd_0_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hls_inst .
+Exporting to file C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/hw_handoff/bd_0.hwh
+Generated Block Design Tcl file C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/hw_handoff/bd_0_bd.tcl
+Generated Hardware Definition File C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/synth/bd_0.hwdef
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1115.840 ; gain = 0.000
+
+[Sun Feb  6 02:27:35 2022] Launched bd_0_hls_inst_0_synth_1...
+Run output will be captured here: C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.runs/bd_0_hls_inst_0_synth_1/runme.log
+[Sun Feb  6 02:27:35 2022] Launched synth_1...
+Run output will be captured here: C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.runs/synth_1/runme.log
+[Sun Feb  6 02:27:35 2022] Waiting for synth_1 to finish...
+
+*** Running vivado
+    with args -log bd_0_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_0_wrapper.tcl
+
+
+
+****** Vivado v2020.2.2 (64-bit)
+  **** SW Build 3118627 on Tue Feb  9 05:14:06 MST 2021
+  **** IP Build 3115676 on Tue Feb  9 10:48:11 MST 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source bd_0_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.cache/ip 
+Command: synth_design -top bd_0_wrapper -part xc7a35ticsg324-1L -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 17000
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1115.133 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'bd_0_wrapper' [c:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/hdl/bd_0_wrapper.vhd:39]
+INFO: [Synth 8-3491] module 'bd_0' declared at 'c:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/synth/bd_0.vhd:14' bound to instance 'bd_0_i' of component 'bd_0' [c:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/hdl/bd_0_wrapper.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'bd_0' [c:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/synth/bd_0.vhd:43]
+INFO: [Synth 8-3491] module 'bd_0_hls_inst_0' declared at 'C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.runs/synth_1/.Xil/Vivado-11056-Jules-PC/realtime/bd_0_hls_inst_0_stub.vhdl:5' bound to instance 'hls_inst' of component 'bd_0_hls_inst_0' [c:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/synth/bd_0.vhd:135]
+INFO: [Synth 8-638] synthesizing module 'bd_0_hls_inst_0' [C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.runs/synth_1/.Xil/Vivado-11056-Jules-PC/realtime/bd_0_hls_inst_0_stub.vhdl:31]
+INFO: [Synth 8-256] done synthesizing module 'bd_0' (1#1) [c:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/synth/bd_0.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'bd_0_wrapper' (2#1) [c:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/hdl/bd_0_wrapper.vhd:39]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1132.059 ; gain = 16.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1132.059 ; gain = 16.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1132.059 ; gain = 16.926
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1132.059 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/bd_0_hls_inst_0/bd_0_hls_inst_0_in_context.xdc] for cell 'bd_0_i/hls_inst'
+Finished Parsing XDC File [c:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/bd_0_hls_inst_0/bd_0_hls_inst_0_in_context.xdc] for cell 'bd_0_i/hls_inst'
+Parsing XDC File [C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/myIPAdder.xdc]
+Finished Parsing XDC File [C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/myIPAdder.xdc]
+Parsing XDC File [C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1143.957 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1146.930 ; gain = 2.973
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1146.930 ; gain = 31.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1146.930 ; gain = 31.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for bd_0_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for bd_0_i/hls_inst. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1146.930 ; gain = 31.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1146.930 ; gain = 31.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1146.930 ; gain = 31.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1197.555 ; gain = 82.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1197.629 ; gain = 82.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1216.754 ; gain = 101.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1222.516 ; gain = 107.383
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1222.516 ; gain = 107.383
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1222.516 ; gain = 107.383
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1222.516 ; gain = 107.383
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1222.516 ; gain = 107.383
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1222.516 ; gain = 107.383
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------+----------+
+|      |BlackBox name   |Instances |
++------+----------------+----------+
+|1     |bd_0_hls_inst_0 |         1|
++------+----------------+----------+
+
+Report Cell Usage: 
++------+---------------------+------+
+|      |Cell                 |Count |
++------+---------------------+------+
+|1     |bd_0_hls_inst_0_bbox |     1|
++------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1222.516 ; gain = 107.383
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1222.516 ; gain = 92.512
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1222.516 ; gain = 107.383
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1222.516 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1244.703 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1244.703 ; gain = 129.570
+INFO: [Common 17-1381] The checkpoint 'C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.runs/synth_1/bd_0_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bd_0_wrapper_utilization_synth.rpt -pb bd_0_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Feb  6 02:29:13 2022...
+[Sun Feb  6 02:29:18 2022] synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:00 ; elapsed = 00:01:43 . Memory (MB): peak = 1115.840 ; gain = 0.000
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35ticsg324-1L
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/bd_0_hls_inst_0.dcp' for cell 'bd_0_i/hls_inst'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1115.840 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/myIPAdder.xdc]
+Finished Parsing XDC File [C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/vhdl/myIPAdder.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1115.840 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1115.840 ; gain = 0.000
+Running report: report_utilization -file ./report/myIPAdder_utilization_synth.rpt
+Contents of report file './report/myIPAdder_utilization_synth.rpt' is as follows:
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2.2 (win64) Build 3118627 Tue Feb  9 05:14:06 MST 2021
+| Date         : Sun Feb  6 02:29:24 2022
+| Host         : Jules-PC running 64-bit major release  (build 9200)
+| Command      : report_utilization -file ./report/myIPAdder_utilization_synth.rpt
+| Design       : bd_0_wrapper
+| Device       : 7a35ticsg324-1L
+| Design State : Synthesized
+--------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Slice Logic
+1.1 Summary of Registers by Type
+2. Memory
+3. DSP
+4. IO and GT Specific
+5. Clocking
+6. Specific Feature
+7. Primitives
+8. Black Boxes
+9. Instantiated Netlists
+
+1. Slice Logic
+--------------
+
++-------------------------+------+-------+-----------+-------+
+|        Site Type        | Used | Fixed | Available | Util% |
++-------------------------+------+-------+-----------+-------+
+| Slice LUTs*             |  130 |     0 |     20800 |  0.63 |
+|   LUT as Logic          |  130 |     0 |     20800 |  0.63 |
+|   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
+| Slice Registers         |  148 |     0 |     41600 |  0.36 |
+|   Register as Flip Flop |  148 |     0 |     41600 |  0.36 |
+|   Register as Latch     |    0 |     0 |     41600 |  0.00 |
+| F7 Muxes                |    1 |     0 |     16300 | <0.01 |
+| F8 Muxes                |    0 |     0 |      8150 |  0.00 |
++-------------------------+------+-------+-----------+-------+
+* Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
+
+
+1.1 Summary of Registers by Type
+--------------------------------
+
++-------+--------------+-------------+--------------+
+| Total | Clock Enable | Synchronous | Asynchronous |
++-------+--------------+-------------+--------------+
+| 0     |            _ |           - |            - |
+| 0     |            _ |           - |          Set |
+| 0     |            _ |           - |        Reset |
+| 0     |            _ |         Set |            - |
+| 0     |            _ |       Reset |            - |
+| 0     |          Yes |           - |            - |
+| 0     |          Yes |           - |          Set |
+| 0     |          Yes |           - |        Reset |
+| 0     |          Yes |         Set |            - |
+| 148   |          Yes |       Reset |            - |
++-------+--------------+-------------+--------------+
+
+
+2. Memory
+---------
+
++----------------+------+-------+-----------+-------+
+|    Site Type   | Used | Fixed | Available | Util% |
++----------------+------+-------+-----------+-------+
+| Block RAM Tile |    0 |     0 |        50 |  0.00 |
+|   RAMB36/FIFO* |    0 |     0 |        50 |  0.00 |
+|   RAMB18       |    0 |     0 |       100 |  0.00 |
++----------------+------+-------+-----------+-------+
+* Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E1 or one FIFO18E1. However, if a FIFO18E1 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E1
+
+
+3. DSP
+------
+
++-----------+------+-------+-----------+-------+
+| Site Type | Used | Fixed | Available | Util% |
++-----------+------+-------+-----------+-------+
+| DSPs      |    0 |     0 |        90 |  0.00 |
++-----------+------+-------+-----------+-------+
+
+
+4. IO and GT Specific
+---------------------
+
++-----------------------------+------+-------+-----------+-------+
+|          Site Type          | Used | Fixed | Available | Util% |
++-----------------------------+------+-------+-----------+-------+
+| Bonded IOB                  |    0 |     0 |       210 |  0.00 |
+| Bonded IPADs                |    0 |     0 |         2 |  0.00 |
+| PHY_CONTROL                 |    0 |     0 |         5 |  0.00 |
+| PHASER_REF                  |    0 |     0 |         5 |  0.00 |
+| OUT_FIFO                    |    0 |     0 |        20 |  0.00 |
+| IN_FIFO                     |    0 |     0 |        20 |  0.00 |
+| IDELAYCTRL                  |    0 |     0 |         5 |  0.00 |
+| IBUFDS                      |    0 |     0 |       202 |  0.00 |
+| PHASER_OUT/PHASER_OUT_PHY   |    0 |     0 |        20 |  0.00 |
+| PHASER_IN/PHASER_IN_PHY     |    0 |     0 |        20 |  0.00 |
+| IDELAYE2/IDELAYE2_FINEDELAY |    0 |     0 |       250 |  0.00 |
+| ILOGIC                      |    0 |     0 |       210 |  0.00 |
+| OLOGIC                      |    0 |     0 |       210 |  0.00 |
++-----------------------------+------+-------+-----------+-------+
+
+
+5. Clocking
+-----------
+
++------------+------+-------+-----------+-------+
+|  Site Type | Used | Fixed | Available | Util% |
++------------+------+-------+-----------+-------+
+| BUFGCTRL   |    0 |     0 |        32 |  0.00 |
+| BUFIO      |    0 |     0 |        20 |  0.00 |
+| MMCME2_ADV |    0 |     0 |         5 |  0.00 |
+| PLLE2_ADV  |    0 |     0 |         5 |  0.00 |
+| BUFMRCE    |    0 |     0 |        10 |  0.00 |
+| BUFHCE     |    0 |     0 |        72 |  0.00 |
+| BUFR       |    0 |     0 |        20 |  0.00 |
++------------+------+-------+-----------+-------+
+
+
+6. Specific Feature
+-------------------
+
++-------------+------+-------+-----------+-------+
+|  Site Type  | Used | Fixed | Available | Util% |
++-------------+------+-------+-----------+-------+
+| BSCANE2     |    0 |     0 |         4 |  0.00 |
+| CAPTUREE2   |    0 |     0 |         1 |  0.00 |
+| DNA_PORT    |    0 |     0 |         1 |  0.00 |
+| EFUSE_USR   |    0 |     0 |         1 |  0.00 |
+| FRAME_ECCE2 |    0 |     0 |         1 |  0.00 |
+| ICAPE2      |    0 |     0 |         2 |  0.00 |
+| PCIE_2_1    |    0 |     0 |         1 |  0.00 |
+| STARTUPE2   |    0 |     0 |         1 |  0.00 |
+| XADC        |    0 |     0 |         1 |  0.00 |
++-------------+------+-------+-----------+-------+
+
+
+7. Primitives
+-------------
+
++----------+------+---------------------+
+| Ref Name | Used | Functional Category |
++----------+------+---------------------+
+| FDRE     |  148 |        Flop & Latch |
+| LUT3     |   64 |                 LUT |
+| LUT6     |   42 |                 LUT |
+| LUT2     |   40 |                 LUT |
+| LUT5     |   13 |                 LUT |
+| CARRY4   |    8 |          CarryLogic |
+| LUT4     |    5 |                 LUT |
+| MUXF7    |    1 |               MuxFx |
+| LUT1     |    1 |                 LUT |
++----------+------+---------------------+
+
+
+8. Black Boxes
+--------------
+
++----------+------+
+| Ref Name | Used |
++----------+------+
+
+
+9. Instantiated Netlists
+------------------------
+
++-----------------+------+
+|     Ref Name    | Used |
++-----------------+------+
+| bd_0_hls_inst_0 |    1 |
++-----------------+------+
+
+
+
+Running report: report_timing_summary -file ./report/myIPAdder_timing_synth.rpt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1L, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-493] Port ap_clk has one or several leaf clock pins in its transitive fanout without any clock buffer on the path and no clock reaching the clock pin(s). Vivado cannot infer the clock source when no clock buffer is found on the path to a leaf clock pin.
+WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port "ap_clk" is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew
+Resolution: Set the HD.CLK_SRC property of the out-of-context port to the location of the clock buffer instance in the top-level design
+report_timing_summary: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1540.875 ; gain = 425.035
+Contents of report file './report/myIPAdder_timing_synth.rpt' is as follows:
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2.2 (win64) Build 3118627 Tue Feb  9 05:14:06 MST 2021
+| Date         : Sun Feb  6 02:29:35 2022
+| Host         : Jules-PC running 64-bit major release  (build 9200)
+| Command      : report_timing_summary -file ./report/myIPAdder_timing_synth.rpt
+| Design       : bd_0_wrapper
+| Device       : 7a35ti-csg324
+| Speed File   : -1L  PRODUCTION 1.23 2018-06-13
+--------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  No
+  Borrow Time for Max Delay Exceptions       :  Yes
+  Merge Timing Exceptions                    :  Yes
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (148)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (357)
+5. checking no_input_delay (0)
+6. checking no_output_delay (0)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (55)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (148)
+--------------------------
+ There are 148 register/latch pins with no clock driven by root clock pin: ap_clk (HIGH)
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (357)
+--------------------------------------------------
+ There are 357 pins that are not constrained for maximum delay. (HIGH)
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (0)
+------------------------------
+ There are 0 input ports with no input delay specified.
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (0)
+-------------------------------
+ There are 0 ports with no output delay specified.
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (55)
+-------------------------------------
+ There are 55 input ports with partial input delay specified. (HIGH)
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+         NA           NA                     NA                   NA           NA           NA                     NA                   NA           NA           NA                      NA                    NA  
+
+
+All user specified timing constraints are met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+
+HLS EXTRACTION: calculating BRAM count: (0 bram18) + 2 * (0 bram36)
+HLS EXTRACTION: synth area_totals:  0 20800 41600 90 100 0 0
+HLS EXTRACTION: synth area_current: 0 130 148 0 0 0 0 0 0 0
+HLS EXTRACTION: generated C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/report/vhdl/myIPAdder_export.xml
+
+
+Implementation tool: Xilinx Vivado v.2020.2.2
+Project:             proj_axi_lite
+Solution:            solution1
+Device target:       xc7a35ti-csg324-1L
+Report date:         Sun Feb 06 02:29:35 +0100 2022
+
+#=== Post-Synthesis Resource usage ===
+SLICE:            0
+LUT:            130
+FF:             148
+DSP:              0
+BRAM:             0
+SRL:              0
+#=== Final timing ===
+CP required:    10.000
+CP achieved post-synthesis:    NA
+No Sequential Path
+
+HLS EXTRACTION: generated C:/Users/jules/.Xilinx/vitis_hls/2020.2.2/vitis_hls_examples/HLS-Tiny-Tutorials/interface_axi_lite/proj_axi_lite/solution1/impl/report/vhdl/myIPAdder_export.rpt
+INFO: [Common 17-206] Exiting Vivado at Sun Feb  6 02:29:35 2022...
+INFO: [HLS 200-802] Generated output file proj_axi_lite/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 3 seconds. CPU system time: 1 seconds. Elapsed time: 159.53 seconds; current allocated memory: 175.850 MB.

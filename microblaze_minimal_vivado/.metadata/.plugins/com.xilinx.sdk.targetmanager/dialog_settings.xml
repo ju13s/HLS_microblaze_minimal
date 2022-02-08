@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Arty A7-35T 210319AFF159A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Arty A7-35T-210319AFF159A-0362d093-0&quot;}}]}"/>
+	<item key="test123_system-bitFile" value="${project_loc:test123}/_ide/bitstream/design_1_wrapper.bit"/>
+	<item key="test123_system-bmmFile" value="${project_loc:test123}/_ide/bitstream/design_1_wrapper.mmi"/>
+	<item key="test123_system-target" value="Local"/>
+	<item key="test123_system-device" value="Auto Detect"/>
+	<item key="test123_system-partial_bit" value="false"/>
+	<item key="test123_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="test123_system"/>
+	<item key="test123_system-microblaze_0-initElf" value="bootloop"/>
+</section>

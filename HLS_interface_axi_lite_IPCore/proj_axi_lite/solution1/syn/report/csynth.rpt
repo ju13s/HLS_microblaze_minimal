@@ -1,0 +1,24 @@
+
+
+================================================================
+== Synthesis Summary Report of 'myIPAdder'
+================================================================
++ General Information: 
+    * Date:           Sun Feb  6 02:26:34 2022
+    * Version:        2020.2.2 (Build 3118627 on Tue Feb  9 05:14:06 MST 2021)
+    * Project:        proj_axi_lite
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: artix7
+    * Target device:  xc7a35ti-csg324-1L
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-------------+------+-------+---------+--------+----------+---------+------+----------+------+----+-----------+----------+-----+
+    |   Modules   | Issue|       | Latency | Latency| Iteration|         | Trip |          |      |    |           |          |     |
+    |   & Loops   | Type | Slack | (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP|     FF    |    LUT   | URAM|
+    +-------------+------+-------+---------+--------+----------+---------+------+----------+------+----+-----------+----------+-----+
+    |+ myIPAdder  |     -|  -2.60|        0|   0.000|         -|        1|     -|        no|     -|   -|  150 (~0%)|  271 (1%)|    -|
+    +-------------+------+-------+---------+--------+----------+---------+------+----------+------+----+-----------+----------+-----+
+

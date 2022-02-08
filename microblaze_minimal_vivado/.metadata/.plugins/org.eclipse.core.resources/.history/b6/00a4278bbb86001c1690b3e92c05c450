@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="test123" location="F:/Documents/FPGA/Projects/microblaze/test123" platform="F:/Documents/FPGA/Projects/microblaze/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm" platformUID="xilinx:arty-a7-35::0.0(custom)" systemProject="test123_system" sysConfig="design_1_wrapper" runtime="cpp" cpu="freertos10_xilinx_microblaze_0" cpuInstance="microblaze_0" os="freertos10_xilinx" mssSignature="dbfa5e41648cc621a97dcbf52c824ac0">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.590855238">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1889005620" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="freertos_hello_world"/>
+</sdkproject:SdkProject>

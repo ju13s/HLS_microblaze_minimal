@@ -8730,3 +8730,290 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-102: Laun
 
 !ENTRY com.xilinx.sdk.utils 0 0 2022-02-06 23:59:11.054
 !MESSAGE XSCT command with result: [dow F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf], Result: [null, ]. Thread: Worker-102: Launching Debugger_microblaze_min_app-GDB
+!SESSION 2022-02-08 20:15:20.671 -----------------------------------------------
+eclipse.buildId=2020.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-02-08 20:16:48.168
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-02-08 20:16:52.588
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-02-08 20:16:52.588
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-02-08 20:16:52.591
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.ui 4 4 2022-02-08 20:16:52.766
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:17:00.282
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:17:00.285
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:17:00.298
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:17:00.311
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:17:00.313
+!MESSAGE XSCT Command: [setws F:/Documents/FPGA/Projects/microblaze_minimal_hls], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:17:00.315
+!MESSAGE XSCT command with result: [setws F:/Documents/FPGA/Projects/microblaze_minimal_hls], Result: [null, ]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:17:05.985
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-4: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:17:10.841
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-4: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:17:10.841
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-4: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:17:10.842
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, F:/Xilinx/Vitis/2020.2/data]. Thread: Worker-4: Initializing s/w repositories
+
+!ENTRY org.eclipse.ui 4 0 2022-02-08 20:19:26.561
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:351)
+	at org.eclipse.swt.widgets.Control.redraw(Control.java:2417)
+	at org.eclipse.ui.forms.widgets.Hyperlink.setText(Hyperlink.java:216)
+	at com.xilinx.sdx.core.ui.editor.AbstractGeneralSectionComposite.initPlatformDetailsUI(AbstractGeneralSectionComposite.java:327)
+	at com.xilinx.sdx.core.ui.editor.AbstractGeneralSectionComposite$2.run(AbstractGeneralSectionComposite.java:246)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:394)
+	at org.eclipse.jface.dialogs.MessageDialog.openError(MessageDialog.java:480)
+	at com.xilinx.sdx.ui.utils.SWTUtils$35.run(SWTUtils.java:3773)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:394)
+	at org.eclipse.jface.dialogs.MessageDialog.openError(MessageDialog.java:480)
+	at com.xilinx.sdx.ui.utils.SWTUtils$35.run(SWTUtils.java:3773)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+!SESSION 2022-02-08 20:20:03.055 -----------------------------------------------
+eclipse.buildId=2020.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2022-02-08 20:20:11.195
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:20:15.334
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:20:15.334
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:20:15.349
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:20:15.363
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:20:15.364
+!MESSAGE XSCT Command: [setws F:/Documents/FPGA/Projects/microblaze_minimal_hls], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:20:15.366
+!MESSAGE XSCT command with result: [setws F:/Documents/FPGA/Projects/microblaze_minimal_hls], Result: [null, ]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:20:19.254
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:20:19.542
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:20:19.543
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:20:19.544
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, F:/Xilinx/Vitis/2020.2/data]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-02-08 20:20:27.579
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-02-08 20:20:27.580
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-02-08 20:20:27.580
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:22:37.925
+!MESSAGE XSCT Command: [::hsi::utils::openhw F:/Documents/FPGA/Projects/microblaze_minimal_hls/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa], Thread: Worker-0: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:22:38.091
+!MESSAGE XSCT command with result: [::hsi::utils::openhw F:/Documents/FPGA/Projects/microblaze_minimal_hls/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa], Result: [null, ]. Thread: Worker-0: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:22:38.098
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/Documents/FPGA/Projects/microblaze_minimal_hls/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa F:/Documents/FPGA/Projects/microblaze_minimal_hls/microblaze_min/export/microblaze_min/sw/microblaze_min/standalone_domain/system.mss ], Thread: Worker-0: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:22:38.110
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/Documents/FPGA/Projects/microblaze_minimal_hls/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa F:/Documents/FPGA/Projects/microblaze_minimal_hls/microblaze_min/export/microblaze_min/sw/microblaze_min/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-0: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:22:38.111
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/Documents/FPGA/Projects/microblaze_minimal_hls/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa F:/Documents/FPGA/Projects/microblaze_minimal_hls/microblaze_min/export/microblaze_min/sw/microblaze_min/standalone_domain/system.mss], Thread: Worker-0: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:22:38.115
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/Documents/FPGA/Projects/microblaze_minimal_hls/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa F:/Documents/FPGA/Projects/microblaze_minimal_hls/microblaze_min/export/microblaze_min/sw/microblaze_min/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-0: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-02-08 20:22:38.117
+!MESSAGE Generating MD5 hash for file: F:\Documents\FPGA\Projects\microblaze_minimal_hls\microblaze_min\export\microblaze_min\sw\microblaze_min\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:22:38.124
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/Documents/FPGA/Projects/microblaze_minimal_hls/microblaze_min/export/microblaze_min/sw/microblaze_min/standalone_domain/system.mss], Thread: Worker-0: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:22:38.127
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/Documents/FPGA/Projects/microblaze_minimal_hls/microblaze_min/export/microblaze_min/sw/microblaze_min/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-0: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:22:40.428
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json F:/Documents/FPGA/Projects/microblaze_minimal_hls/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa], Thread: Worker-0: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 20:22:40.435
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json F:/Documents/FPGA/Projects/microblaze_minimal_hls/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa], Result: [null, {"axi_ethernetlite_0": {"hier_name": "axi_ethernetlite_0",
+"type": "axi_ethernetlite",
+"version": "3.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_iic_0": {"hier_name": "axi_iic_0",
+"type": "axi_iic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_timer_0": {"hier_name": "axi_timer_0",
+"type": "axi_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_0": {"hier_name": "clk_wiz_0",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"microblaze_0_xlconcat": {"hier_name": "microblaze_0_xlconcat",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"mig_7series_0": {"hier_name": "mig_7series_0",
+"type": "mig_7series",
+"version": "4.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"myIPAdder_0": {"hier_name": "myIPAdder_0",
+"type": "myIPAdder",
+"version": "0.0",
+"ip_type": "PERIPHERAL",
+},
+"rst_mig_7series_0_83M": {"hier_name": "rst_mig_7series_0_83M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-0: Building Workspace

@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="sdx.custom.platform.repository.locations" value="F:\Documents\FPGA\Projects\microblaze_min\microblaze_min\export\microblaze_min"/>
+	<item key="sdx.custom.platform.repository.locations" value="F:\Documents\FPGA\Projects\microblaze_minimal_hls\microblaze_minimal_vivado;F:\Documents\FPGA\Projects\microblaze_minimal_hls"/>
 </section>

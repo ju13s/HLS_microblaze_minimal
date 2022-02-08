@@ -438,3 +438,32 @@ targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
 dow F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf
 ----------------End of Script----------------
 
+20:16:56 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\Documents\FPGA\Projects\microblaze_minimal_hls\temp_xsdb_launch_script.tcl
+20:17:00 INFO  : XSCT server has started successfully.
+20:17:00 INFO  : plnx-install-location is set to ''
+20:17:00 INFO  : Successfully done setting XSCT server connection channel  
+20:17:00 INFO  : Successfully done setting workspace for the tool. 
+20:17:05 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+20:17:06 INFO  : Platform repository initialization has completed.
+20:17:06 INFO  : Registering command handlers for Vitis TCF services
+20:17:10 INFO  : Successfully done query RDI_DATADIR 
+20:17:35 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+20:17:35 ERROR : Failed to get platform details for the project 'microblaze_min_app'. Cannot sync application flags.
+20:20:13 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\Documents\FPGA\Projects\microblaze_minimal_hls\temp_xsdb_launch_script.tcl
+20:20:15 INFO  : XSCT server has started successfully.
+20:20:15 INFO  : plnx-install-location is set to ''
+20:20:15 INFO  : Successfully done setting XSCT server connection channel  
+20:20:15 INFO  : Successfully done setting workspace for the tool. 
+20:20:19 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+20:20:19 INFO  : Platform repository initialization has completed.
+20:20:19 INFO  : Successfully done query RDI_DATADIR 
+20:20:20 INFO  : Registering command handlers for Vitis TCF services
+20:20:25 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+20:20:25 ERROR : Failed to get platform details for the project 'microblaze_min_app'. Cannot sync application flags.
+20:22:37 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...

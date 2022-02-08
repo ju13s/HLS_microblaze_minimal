@@ -1,0 +1,6 @@
+<VitisHLS:BurstInfo>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="example.cpp:31:9" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by number_1" ID="bb0.load.3" VarName="number_1"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="example.cpp:31:21" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by number_2" ID="bb0.load.4" VarName="number_2"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="example.cpp:31:7" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by sum" ID="bb0.store.6" VarName="sum"/>
+</VitisHLS:BurstInfo>
+

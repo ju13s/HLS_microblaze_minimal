@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;design_1_wrapper/microblaze_0/freertos10_xilinx_microblaze_0/bsp/microblaze_0/libsrc/example_v0_0/src/Makefile&apos; to &apos;MakefileOLD&apos;" description="Rename resource &apos;Makefile&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="microblaze_0/freertos10_xilinx_microblaze_0/bsp/microblaze_0/libsrc/example_v0_0/src/Makefile" name="MakefileOLD" stamp="1644089206213" updateReferences="true"/>
+</session>
