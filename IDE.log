@@ -1,0 +1,440 @@
+02:01:42 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\Documents\FPGA\Projects\microblaze_min\temp_xsdb_launch_script.tcl
+02:01:43 INFO  : Registering command handlers for Vitis TCF services
+02:01:46 INFO  : XSCT server has started successfully.
+02:01:46 INFO  : plnx-install-location is set to ''
+02:01:46 INFO  : Successfully done setting XSCT server connection channel  
+02:01:46 INFO  : Platform repository initialization has completed.
+02:01:46 INFO  : Successfully done setting workspace for the tool. 
+02:01:46 INFO  : Successfully done query RDI_DATADIR 
+02:08:10 INFO  : Result from executing command 'getProjects': micrpblaze_min
+02:08:10 INFO  : Result from executing command 'getPlatforms': 
+02:09:09 INFO  : Result from executing command 'getProjects': microblaze_min
+02:09:09 INFO  : Result from executing command 'getPlatforms': 
+02:11:43 INFO  : Result from executing command 'getProjects': design_1_wrapper;microblaze_min
+02:11:43 INFO  : Result from executing command 'getPlatforms': microblaze_min|F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/microblaze_min.xpfm
+02:11:43 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+02:11:45 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+02:12:14 INFO  : Hardware specification for platform project 'design_1_wrapper' is updated.
+02:12:32 ERROR : Failed to compute checksum of hardware specification file used by project 'microblaze_min_app'
+02:12:32 ERROR : Failed to openhw "F:/Documents/FPGA/Projects/microblaze_min/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+02:12:32 ERROR : Failed to openhw "F:/Documents/FPGA/Projects/microblaze_min/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+02:12:32 ERROR : Failed to openhw "F:/Documents/FPGA/Projects/microblaze_min/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+02:12:32 ERROR : Failed to compute checksum of hardware specification file used by project 'microblaze_min_app'
+02:12:32 ERROR : Failed to openhw "F:/Documents/FPGA/Projects/microblaze_min/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+02:12:32 ERROR : Failed to openhw "F:/Documents/FPGA/Projects/microblaze_min/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+02:12:32 ERROR : Failed to openhw "F:/Documents/FPGA/Projects/microblaze_min/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+02:12:38 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+02:12:38 ERROR : Failed to openhw "F:/Documents/FPGA/Projects/microblaze_min/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+02:12:38 ERROR : Failed to update application flags from BSP for 'microblaze_min_app'. Reason: null
+java.lang.NullPointerException
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305)
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214)
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:61)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.regenerateMakefiles(XilinxGnuMakefileGenerator.java:75)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+02:12:39 ERROR : Failed to compute checksum of hardware specification file used by project 'microblaze_min_app'
+02:12:39 ERROR : Failed to openhw "F:/Documents/FPGA/Projects/microblaze_min/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+02:12:39 ERROR : Failed to openhw "F:/Documents/FPGA/Projects/microblaze_min/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+02:12:39 ERROR : Failed to openhw "F:/Documents/FPGA/Projects/microblaze_min/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+02:13:59 ERROR : Failed to compute checksum of hardware specification file used by project 'microblaze_min_app'
+02:14:14 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+02:14:14 ERROR : Failed to openhw "F:/Documents/FPGA/Projects/microblaze_min/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+02:14:14 ERROR : Failed to update application flags from BSP for 'microblaze_min_app'. Reason: null
+java.lang.NullPointerException
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305)
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214)
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:61)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.regenerateMakefiles(XilinxGnuMakefileGenerator.java:75)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+02:14:15 ERROR : Failed to compute checksum of hardware specification file used by project 'microblaze_min_app'
+02:14:15 ERROR : Failed to openhw "F:/Documents/FPGA/Projects/microblaze_min/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+02:14:15 ERROR : Failed to openhw "F:/Documents/FPGA/Projects/microblaze_min/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+02:14:15 ERROR : Failed to openhw "F:/Documents/FPGA/Projects/microblaze_min/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+02:59:48 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\Documents\FPGA\Projects\microblaze_min\temp_xsdb_launch_script.tcl
+02:59:51 INFO  : Registering command handlers for Vitis TCF services
+02:59:53 INFO  : XSCT server has started successfully.
+02:59:56 INFO  : Platform repository initialization has completed.
+02:59:57 INFO  : Successfully done setting XSCT server connection channel  
+02:59:57 INFO  : plnx-install-location is set to ''
+02:59:57 INFO  : Successfully done query RDI_DATADIR 
+02:59:57 INFO  : Successfully done setting workspace for the tool. 
+03:00:42 INFO  : Result from executing command 'getProjects': microblaze_min
+03:00:42 INFO  : Result from executing command 'getPlatforms': 
+03:01:57 INFO  : Result from executing command 'getProjects': microblaze_min
+03:01:57 INFO  : Result from executing command 'getPlatforms': microblaze_min|F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/microblaze_min.xpfm
+03:04:00 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+16:34:42 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\Documents\FPGA\Projects\microblaze_min\temp_xsdb_launch_script.tcl
+16:34:47 INFO  : XSCT server has started successfully.
+16:34:47 INFO  : Successfully done setting XSCT server connection channel  
+16:34:47 INFO  : plnx-install-location is set to ''
+16:34:47 INFO  : Successfully done setting workspace for the tool. 
+16:34:53 INFO  : Platform repository initialization has completed.
+16:34:54 INFO  : Registering command handlers for Vitis TCF services
+16:34:59 INFO  : Successfully done query RDI_DATADIR 
+17:15:31 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+17:18:55 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+17:19:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:19:59 INFO  : Jtag cable 'Digilent Arty A7-35T 210319AFF159A' is selected.
+17:19:59 INFO  : 'jtag frequency' command is executed.
+17:20:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}' command is executed.
+17:20:01 INFO  : Device configured successfully with "F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit"
+17:20:02 INFO  : Context for processor 'microblaze_0' is selected.
+17:20:02 INFO  : Hardware design and registers information is loaded from 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa'.
+17:20:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:20:03 INFO  : Context for processor 'microblaze_0' is selected.
+17:20:03 INFO  : System reset is completed.
+17:20:06 INFO  : 'after 3000' command is executed.
+17:20:07 INFO  : Context for processor 'microblaze_0' is selected.
+17:20:07 INFO  : The application 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf' is downloaded to processor 'microblaze_0'.
+17:20:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}
+fpga -file F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf
+----------------End of Script----------------
+
+17:27:06 INFO  : Disconnected from the channel tcfchan#1.
+17:27:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:27:10 INFO  : Jtag cable 'Digilent Arty A7-35T 210319AFF159A' is selected.
+17:27:10 INFO  : 'jtag frequency' command is executed.
+17:27:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}' command is executed.
+17:27:11 INFO  : Device configured successfully with "F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit"
+17:27:11 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:12 INFO  : Hardware design and registers information is loaded from 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa'.
+17:27:12 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:27:12 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:12 INFO  : System reset is completed.
+17:27:15 INFO  : 'after 3000' command is executed.
+17:27:15 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:15 INFO  : The application 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf' is downloaded to processor 'microblaze_0'.
+17:27:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}
+fpga -file F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf
+----------------End of Script----------------
+
+17:28:05 INFO  : Disconnected from the channel tcfchan#2.
+17:28:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:28:08 INFO  : Jtag cable 'Digilent Arty A7-35T 210319AFF159A' is selected.
+17:28:08 INFO  : 'jtag frequency' command is executed.
+17:28:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}' command is executed.
+17:28:09 INFO  : Device configured successfully with "F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit"
+17:28:09 INFO  : Context for processor 'microblaze_0' is selected.
+17:28:09 INFO  : Hardware design and registers information is loaded from 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa'.
+17:28:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:28:09 INFO  : Context for processor 'microblaze_0' is selected.
+17:28:09 INFO  : System reset is completed.
+17:28:12 INFO  : 'after 3000' command is executed.
+17:28:12 INFO  : Context for processor 'microblaze_0' is selected.
+17:28:12 INFO  : The application 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf' is downloaded to processor 'microblaze_0'.
+17:28:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}
+fpga -file F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf
+----------------End of Script----------------
+
+17:28:27 INFO  : Disconnected from the channel tcfchan#3.
+18:23:47 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+18:24:13 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+18:24:26 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+18:24:44 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+18:25:41 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+18:25:52 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+18:26:04 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+18:26:57 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+18:27:10 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+18:27:46 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+18:27:55 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+18:34:09 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+18:34:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:34:41 INFO  : Jtag cable 'Digilent Arty A7-35T 210319AFF159A' is selected.
+18:34:41 INFO  : 'jtag frequency' command is executed.
+18:34:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}' command is executed.
+18:34:44 INFO  : Device configured successfully with "F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit"
+18:34:45 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:45 INFO  : Hardware design and registers information is loaded from 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa'.
+18:34:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:34:46 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:46 INFO  : System reset is completed.
+18:34:49 INFO  : 'after 3000' command is executed.
+18:34:49 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:50 INFO  : The application 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf' is downloaded to processor 'microblaze_0'.
+18:34:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}
+fpga -file F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf
+----------------End of Script----------------
+
+18:38:05 INFO  : Disconnected from the channel tcfchan#4.
+18:38:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:38:10 INFO  : Jtag cable 'Digilent Arty A7-35T 210319AFF159A' is selected.
+18:38:10 INFO  : 'jtag frequency' command is executed.
+18:38:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}' command is executed.
+18:38:11 INFO  : Device configured successfully with "F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit"
+18:38:11 INFO  : Context for processor 'microblaze_0' is selected.
+18:38:11 INFO  : Hardware design and registers information is loaded from 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa'.
+18:38:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:38:11 INFO  : Context for processor 'microblaze_0' is selected.
+18:38:11 INFO  : System reset is completed.
+18:38:14 INFO  : 'after 3000' command is executed.
+18:38:14 INFO  : Context for processor 'microblaze_0' is selected.
+18:38:15 INFO  : The application 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf' is downloaded to processor 'microblaze_0'.
+18:38:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}
+fpga -file F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf
+----------------End of Script----------------
+
+18:39:00 INFO  : Disconnected from the channel tcfchan#5.
+18:39:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:39:06 INFO  : Jtag cable 'Digilent Arty A7-35T 210319AFF159A' is selected.
+18:39:06 INFO  : 'jtag frequency' command is executed.
+18:39:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}' command is executed.
+18:39:08 INFO  : Device configured successfully with "F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit"
+18:39:08 INFO  : Context for processor 'microblaze_0' is selected.
+18:39:08 INFO  : Hardware design and registers information is loaded from 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa'.
+18:39:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:39:08 INFO  : Context for processor 'microblaze_0' is selected.
+18:39:08 INFO  : System reset is completed.
+18:39:11 INFO  : 'after 3000' command is executed.
+18:39:11 INFO  : Context for processor 'microblaze_0' is selected.
+18:39:11 INFO  : The application 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf' is downloaded to processor 'microblaze_0'.
+18:39:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}
+fpga -file F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf
+----------------End of Script----------------
+
+18:39:25 INFO  : Disconnected from the channel tcfchan#6.
+18:39:27 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+18:39:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:39:34 INFO  : Jtag cable 'Digilent Arty A7-35T 210319AFF159A' is selected.
+18:39:34 INFO  : 'jtag frequency' command is executed.
+18:39:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}' command is executed.
+18:39:35 INFO  : Device configured successfully with "F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit"
+18:39:35 INFO  : Context for processor 'microblaze_0' is selected.
+18:39:35 INFO  : Hardware design and registers information is loaded from 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa'.
+18:39:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:39:35 INFO  : Context for processor 'microblaze_0' is selected.
+18:39:35 INFO  : System reset is completed.
+18:39:38 INFO  : 'after 3000' command is executed.
+18:39:38 INFO  : Context for processor 'microblaze_0' is selected.
+18:39:38 INFO  : The application 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf' is downloaded to processor 'microblaze_0'.
+18:39:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}
+fpga -file F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf
+----------------End of Script----------------
+
+19:29:23 INFO  : Disconnected from the channel tcfchan#7.
+19:29:28 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_min_app'...
+19:29:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:29:54 INFO  : Jtag cable 'Digilent Arty A7-35T 210319AFF159A' is selected.
+19:29:54 INFO  : 'jtag frequency' command is executed.
+19:29:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}' command is executed.
+19:29:57 INFO  : Device configured successfully with "F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit"
+19:29:57 INFO  : Context for processor 'microblaze_0' is selected.
+19:29:58 INFO  : Hardware design and registers information is loaded from 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa'.
+19:29:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:29:58 INFO  : Context for processor 'microblaze_0' is selected.
+19:29:58 INFO  : System reset is completed.
+19:30:01 INFO  : 'after 3000' command is executed.
+19:30:02 INFO  : Context for processor 'microblaze_0' is selected.
+19:30:02 INFO  : The application 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf' is downloaded to processor 'microblaze_0'.
+19:30:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}
+fpga -file F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf
+----------------End of Script----------------
+
+19:35:04 INFO  : Disconnected from the channel tcfchan#8.
+23:29:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:29:55 INFO  : Jtag cable 'Digilent Arty A7-35T 210319AFF159A' is selected.
+23:29:55 INFO  : 'jtag frequency' command is executed.
+23:29:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}' command is executed.
+23:29:57 INFO  : Device configured successfully with "F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit"
+23:29:58 INFO  : Context for processor 'microblaze_0' is selected.
+23:29:59 INFO  : Hardware design and registers information is loaded from 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa'.
+23:29:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:30:00 INFO  : Context for processor 'microblaze_0' is selected.
+23:30:00 INFO  : System reset is completed.
+23:30:03 INFO  : 'after 3000' command is executed.
+23:30:04 INFO  : Context for processor 'microblaze_0' is selected.
+23:30:04 INFO  : The application 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf' is downloaded to processor 'microblaze_0'.
+23:30:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}
+fpga -file F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf
+----------------End of Script----------------
+
+23:59:04 INFO  : Disconnected from the channel tcfchan#9.
+23:59:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:59:06 INFO  : Jtag cable 'Digilent Arty A7-35T 210319AFF159A' is selected.
+23:59:06 INFO  : 'jtag frequency' command is executed.
+23:59:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}' command is executed.
+23:59:07 INFO  : Device configured successfully with "F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit"
+23:59:07 INFO  : Context for processor 'microblaze_0' is selected.
+23:59:07 INFO  : Hardware design and registers information is loaded from 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa'.
+23:59:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:59:07 INFO  : Context for processor 'microblaze_0' is selected.
+23:59:07 INFO  : System reset is completed.
+23:59:10 INFO  : 'after 3000' command is executed.
+23:59:10 INFO  : Context for processor 'microblaze_0' is selected.
+23:59:11 INFO  : The application 'F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf' is downloaded to processor 'microblaze_0'.
+23:59:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319AFF159A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319AFF159A-0362d093-0"}
+fpga -file F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/export/microblaze_min/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Documents/FPGA/Projects/microblaze_min/microblaze_min_app/Debug/microblaze_min_app.elf
+----------------End of Script----------------
+

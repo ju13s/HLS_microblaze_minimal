@@ -1,0 +1,1233 @@
+TRACE::2022-02-06.03:00:32::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:32::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:32::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:35::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:35::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-02-06.03:00:35::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:35::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_min",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_min",
+	"platHandOff":	"F:/Documents/FPGA/Projects/microblaze/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-02-06.03:00:35::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_min",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_min",
+	"platHandOff":	"F:/Documents/FPGA/Projects/microblaze/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_min",
+	"systems":	[{
+			"systemName":	"microblaze_min",
+			"systemDesc":	"microblaze_min",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_min"
+		}]
+}
+TRACE::2022-02-06.03:00:35::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-02-06.03:00:35::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2022-02-06.03:00:35::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_min",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_min",
+	"platHandOff":	"F:/Documents/FPGA/Projects/microblaze/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_min",
+	"systems":	[{
+			"systemName":	"microblaze_min",
+			"systemDesc":	"microblaze_min",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_min"
+		}]
+}
+TRACE::2022-02-06.03:00:35::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:35::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:35::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:35::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:35::SCWDomain::checking for install qemu data   : 
+TRACE::2022-02-06.03:00:35::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:35::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:35::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:35::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:35::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:35::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:35::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:35::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:35::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:35::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:35::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:35::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:35::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:35::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:35::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-02-06.03:00:35::SCWMssOS::No sw design opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:35::SCWMssOS::mss does not exists at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:35::SCWMssOS::Creating sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:35::SCWMssOS::Adding the swdes entry, created swdb F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss with des name F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:35::SCWMssOS::updating the scw layer changes to swdes at   F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:35::SCWMssOS::Writing mss at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:35::SCWMssOS::Completed writing the mss file at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp
+TRACE::2022-02-06.03:00:35::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-02-06.03:00:35::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-02-06.03:00:35::SCWMssOS::Completed writing the mss file at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp
+TRACE::2022-02-06.03:00:35::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2022-02-06.03:00:42::SCWMssOS::Saving the mss changes F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-06.03:00:42::SCWMssOS::Running validate of swdbs.
+KEYINFO::2022-02-06.03:00:42::SCWMssOS::Could not open the swdb for F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+KEYINFO::2022-02-06.03:00:42::SCWMssOS::Could not open the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Cleared the swdb table entry
+TRACE::2022-02-06.03:00:42::SCWMssOS::Adding the swdes entry, mss present, able to open swdb F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-02-06.03:00:42::SCWMssOS::Writing the mss file completed F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::Commit changes completed.
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_min",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_min",
+	"platHandOff":	"F:/Documents/FPGA/Projects/microblaze/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_min",
+	"systems":	[{
+			"systemName":	"microblaze_min",
+			"systemDesc":	"microblaze_min",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_min",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"594e24a49243f99d56ad4408a7a55eab",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-02-06.03:00:42::SCWPlatform::Started generating the artifacts platform microblaze_min
+TRACE::2022-02-06.03:00:42::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-02-06.03:00:42::SCWPlatform::Started generating the artifacts for system configuration microblaze_min
+LOG::2022-02-06.03:00:42::SCWSystem::Checking the domain standalone_domain
+LOG::2022-02-06.03:00:42::SCWSystem::Not a boot domain 
+LOG::2022-02-06.03:00:42::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-02-06.03:00:42::SCWDomain::Generating domain artifcats
+TRACE::2022-02-06.03:00:42::SCWMssOS::Generating standalone artifcats
+TRACE::2022-02-06.03:00:42::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::Completed writing the mss file at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp
+TRACE::2022-02-06.03:00:42::SCWMssOS::Mss edits present, copying mssfile into export location F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-02-06.03:00:42::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-02-06.03:00:42::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2022-02-06.03:00:42::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-02-06.03:00:42::SCWMssOS::Copying to export directory.
+TRACE::2022-02-06.03:00:42::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-02-06.03:00:42::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-02-06.03:00:42::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-02-06.03:00:42::SCWSystem::Completed Processing the sysconfig microblaze_min
+LOG::2022-02-06.03:00:42::SCWPlatform::Completed generating the artifacts for system configuration microblaze_min
+TRACE::2022-02-06.03:00:42::SCWPlatform::Started preparing the platform 
+TRACE::2022-02-06.03:00:42::SCWSystem::Writing the bif file for system config microblaze_min
+TRACE::2022-02-06.03:00:42::SCWSystem::dir created 
+TRACE::2022-02-06.03:00:42::SCWSystem::Writing the bif 
+TRACE::2022-02-06.03:00:42::SCWPlatform::Started writing the spfm file 
+TRACE::2022-02-06.03:00:42::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-02-06.03:00:42::SCWPlatform::Completed generating the platform
+TRACE::2022-02-06.03:00:42::SCWMssOS::Saving the mss changes F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-06.03:00:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-06.03:00:42::SCWMssOS::Commit changes completed.
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_min",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_min",
+	"platHandOff":	"F:/Documents/FPGA/Projects/microblaze/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_min",
+	"systems":	[{
+			"systemName":	"microblaze_min",
+			"systemDesc":	"microblaze_min",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_min",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"594e24a49243f99d56ad4408a7a55eab",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-02-06.03:00:42::SCWPlatform::updated the xpfm file.
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::Saving the mss changes F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-06.03:00:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-06.03:00:42::SCWMssOS::Commit changes completed.
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_min",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_min",
+	"platHandOff":	"F:/Documents/FPGA/Projects/microblaze/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_min",
+	"systems":	[{
+			"systemName":	"microblaze_min",
+			"systemDesc":	"microblaze_min",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_min",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"594e24a49243f99d56ad4408a7a55eab",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::Saving the mss changes F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-06.03:00:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-06.03:00:42::SCWMssOS::Commit changes completed.
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_min",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_min",
+	"platHandOff":	"F:/Documents/FPGA/Projects/microblaze/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_min",
+	"systems":	[{
+			"systemName":	"microblaze_min",
+			"systemDesc":	"microblaze_min",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_min",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"594e24a49243f99d56ad4408a7a55eab",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-02-06.03:00:42::SCWMssOS::Saving the mss changes F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-06.03:00:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-06.03:00:42::SCWMssOS::Commit changes completed.
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:42::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-02-06.03:00:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:42::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:42::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:42::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_min",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_min",
+	"platHandOff":	"F:/Documents/FPGA/Projects/microblaze/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_min",
+	"systems":	[{
+			"systemName":	"microblaze_min",
+			"systemDesc":	"microblaze_min",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_min",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"594e24a49243f99d56ad4408a7a55eab",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-02-06.03:00:43::SCWPlatform::Clearing the existing platform
+TRACE::2022-02-06.03:00:43::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-02-06.03:00:43::SCWMssOS::Removing the swdes entry for  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:43::SCWSystem::Clearing the domains completed.
+TRACE::2022-02-06.03:00:43::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform:: Platform location is F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:43::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:43::SCWPlatform::Removing the HwDB with name F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:43::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:43::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-02-06.03:00:43::SCWPlatform::Opened new HwDB with name design_1_wrapper_1
+TRACE::2022-02-06.03:00:43::SCWReader::Active system found as  microblaze_min
+TRACE::2022-02-06.03:00:43::SCWReader::Handling sysconfig microblaze_min
+TRACE::2022-02-06.03:00:43::SCWDomain::checking for install qemu data   : 
+TRACE::2022-02-06.03:00:43::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:43::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:43::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-02-06.03:00:43::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-02-06.03:00:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:43::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:43::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:43::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-02-06.03:00:43::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-02-06.03:00:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:43::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:43::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:43::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-02-06.03:00:43::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-02-06.03:00:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:43::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:43::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:43::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-02-06.03:00:43::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-02-06.03:00:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:43::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:43::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-02-06.03:00:43::SCWMssOS::No sw design opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:43::SCWMssOS::mss exists loading the mss file  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:43::SCWMssOS::Opened the sw design from mss  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:43::SCWMssOS::Adding the swdes entry F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-02-06.03:00:43::SCWMssOS::updating the scw layer about changes
+TRACE::2022-02-06.03:00:43::SCWMssOS::Opened the sw design.  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:43::SCWMssOS::Saving the mss changes F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:43::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-06.03:00:43::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-06.03:00:43::SCWMssOS::Commit changes completed.
+TRACE::2022-02-06.03:00:43::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-02-06.03:00:43::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-02-06.03:00:43::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:43::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:43::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:43::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-02-06.03:00:43::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-02-06.03:00:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:43::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:43::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:43::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:43::SCWReader::No isolation master present  
+LOG::2022-02-06.03:00:51::SCWPlatform::Started generating the artifacts platform microblaze_min
+TRACE::2022-02-06.03:00:51::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-02-06.03:00:51::SCWPlatform::Started generating the artifacts for system configuration microblaze_min
+LOG::2022-02-06.03:00:51::SCWSystem::Checking the domain standalone_domain
+LOG::2022-02-06.03:00:51::SCWSystem::Not a boot domain 
+LOG::2022-02-06.03:00:51::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-02-06.03:00:51::SCWDomain::Generating domain artifcats
+TRACE::2022-02-06.03:00:51::SCWMssOS::Generating standalone artifcats
+TRACE::2022-02-06.03:00:51::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-02-06.03:00:51::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:51::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:51::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:51::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:00:51::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:00:51::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:00:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-02-06.03:00:51::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-02-06.03:00:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:00:51::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:51::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:00:51::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:51::SCWMssOS::Completed writing the mss file at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp
+TRACE::2022-02-06.03:00:51::SCWMssOS::Mss edits present, copying mssfile into export location F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:00:51::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-02-06.03:00:51::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-02-06.03:00:51::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2022-02-06.03:00:51::SCWMssOS::doing bsp build ... 
+TRACE::2022-02-06.03:00:51::SCWMssOS::System Command Ran  F: & cd  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp & make 
+TRACE::2022-02-06.03:00:52::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-02-06.03:00:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-02-06.03:00:52::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-02-06.03:00:52::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hig
+TRACE::2022-02-06.03:00:52::SCWMssOS::h -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:00:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-02-06.03:00:52::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-02-06.03:00:52::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hig
+TRACE::2022-02-06.03:00:52::SCWMssOS::h -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:00:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/emaclite_v4_6/src"
+
+TRACE::2022-02-06.03:00:52::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-02-06.03:00:52::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply
+TRACE::2022-02-06.03:00:52::SCWMssOS::-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:00:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-02-06.03:00:52::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-02-06.03:00:52::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hig
+TRACE::2022-02-06.03:00:52::SCWMssOS::h -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:00:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/iic_v3_7/src"
+
+TRACE::2022-02-06.03:00:52::SCWMssOS::make -C microblaze_0/libsrc/iic_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2022-02-06.03:00:52::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high
+TRACE::2022-02-06.03:00:52::SCWMssOS:: -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:00:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-02-06.03:00:52::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-02-06.03:00:52::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hi
+TRACE::2022-02-06.03:00:52::SCWMssOS::gh -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:00:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/myIPAdder_v0_0/src"
+
+TRACE::2022-02-06.03:00:52::SCWMssOS::make -C microblaze_0/libsrc/myIPAdder_v0_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-02-06.03:00:52::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multipl
+TRACE::2022-02-06.03:00:52::SCWMssOS::y-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+ERROR::2022-02-06.03:00:53::SCWMssOS::Failed to build  the bsp sources for domain - standalone_domain
+ERROR::2022-02-06.03:00:53::SCWSystem::Error in Processing the domain standalone_domain
+LOG::2022-02-06.03:01:50::SCWPlatform::Started generating the artifacts platform microblaze_min
+TRACE::2022-02-06.03:01:50::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-02-06.03:01:50::SCWPlatform::Started generating the artifacts for system configuration microblaze_min
+LOG::2022-02-06.03:01:50::SCWSystem::Checking the domain standalone_domain
+LOG::2022-02-06.03:01:50::SCWSystem::Not a boot domain 
+LOG::2022-02-06.03:01:50::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-02-06.03:01:50::SCWDomain::Generating domain artifcats
+TRACE::2022-02-06.03:01:50::SCWMssOS::Generating standalone artifcats
+TRACE::2022-02-06.03:01:50::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-02-06.03:01:50::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:01:50::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:01:50::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:01:50::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:01:50::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:01:50::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:01:50::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-02-06.03:01:50::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-02-06.03:01:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:01:50::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:01:50::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:01:50::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:01:50::SCWMssOS::Completed writing the mss file at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp
+TRACE::2022-02-06.03:01:50::SCWMssOS::Mss edits present, copying mssfile into export location F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:01:50::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-02-06.03:01:50::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-02-06.03:01:50::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2022-02-06.03:01:50::SCWMssOS::doing bsp build ... 
+TRACE::2022-02-06.03:01:50::SCWMssOS::System Command Ran  F: & cd  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp & make 
+TRACE::2022-02-06.03:01:50::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-02-06.03:01:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-02-06.03:01:50::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-02-06.03:01:50::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hig
+TRACE::2022-02-06.03:01:50::SCWMssOS::h -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-02-06.03:01:50::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-02-06.03:01:50::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hig
+TRACE::2022-02-06.03:01:50::SCWMssOS::h -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/emaclite_v4_6/src"
+
+TRACE::2022-02-06.03:01:50::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-02-06.03:01:50::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply
+TRACE::2022-02-06.03:01:50::SCWMssOS::-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:51::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-02-06.03:01:51::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-02-06.03:01:51::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hig
+TRACE::2022-02-06.03:01:51::SCWMssOS::h -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:51::SCWMssOS::"Running Make include in microblaze_0/libsrc/iic_v3_7/src"
+
+TRACE::2022-02-06.03:01:51::SCWMssOS::make -C microblaze_0/libsrc/iic_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2022-02-06.03:01:51::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high
+TRACE::2022-02-06.03:01:51::SCWMssOS:: -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:51::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-02-06.03:01:51::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-02-06.03:01:51::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hi
+TRACE::2022-02-06.03:01:51::SCWMssOS::gh -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:51::SCWMssOS::"Running Make include in microblaze_0/libsrc/myIPAdder_v0_0/src"
+
+TRACE::2022-02-06.03:01:51::SCWMssOS::make -C microblaze_0/libsrc/myIPAdder_v0_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-02-06.03:01:51::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multipl
+TRACE::2022-02-06.03:01:51::SCWMssOS::y-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:51::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-02-06.03:01:51::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-02-06.03:01:51::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multip
+TRACE::2022-02-06.03:01:51::SCWMssOS::ly-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:51::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-02-06.03:01:51::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-02-06.03:01:51::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-h
+TRACE::2022-02-06.03:01:51::SCWMssOS::igh -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-02-06.03:01:52::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-02-06.03:01:52::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply
+TRACE::2022-02-06.03:01:52::SCWMssOS::-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:52::SCWMssOS::"Running Make libs in microblaze_0/libsrc/myIPAdder_v0_0/src"
+
+TRACE::2022-02-06.03:01:52::SCWMssOS::make -C microblaze_0/libsrc/myIPAdder_v0_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-02-06.03:01:52::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-h
+TRACE::2022-02-06.03:01:52::SCWMssOS::igh -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:52::SCWMssOS::"Compiling Adder"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -j --no-print-directory par_libs
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-02-06.03:01:53::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hig
+TRACE::2022-02-06.03:01:53::SCWMssOS::h -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-02-06.03:01:53::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hig
+TRACE::2022-02-06.03:01:53::SCWMssOS::h -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/emaclite_v4_6/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-02-06.03:01:53::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply
+TRACE::2022-02-06.03:01:53::SCWMssOS::-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-02-06.03:01:53::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hig
+TRACE::2022-02-06.03:01:53::SCWMssOS::h -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/iic_v3_7/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/iic_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2022-02-06.03:01:53::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high
+TRACE::2022-02-06.03:01:53::SCWMssOS:: -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-02-06.03:01:53::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hi
+TRACE::2022-02-06.03:01:53::SCWMssOS::gh -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/myIPAdder_v0_0/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/myIPAdder_v0_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-02-06.03:01:53::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multipl
+TRACE::2022-02-06.03:01:53::SCWMssOS::y-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-02-06.03:01:53::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multip
+TRACE::2022-02-06.03:01:53::SCWMssOS::ly-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-02-06.03:01:53::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-h
+TRACE::2022-02-06.03:01:53::SCWMssOS::igh -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-02-06.03:01:53::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply
+TRACE::2022-02-06.03:01:53::SCWMssOS::-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-02-06.03:01:53::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -
+TRACE::2022-02-06.03:01:53::SCWMssOS::mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-02-06.03:01:53::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -
+TRACE::2022-02-06.03:01:53::SCWMssOS::mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make libs in microblaze_0/libsrc/emaclite_v4_6/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-02-06.03:01:53::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hi
+TRACE::2022-02-06.03:01:53::SCWMssOS::gh -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-02-06.03:01:53::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -
+TRACE::2022-02-06.03:01:53::SCWMssOS::mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make libs in microblaze_0/libsrc/iic_v3_7/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/iic_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2022-02-06.03:01:53::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -m
+TRACE::2022-02-06.03:01:53::SCWMssOS::xl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2022-02-06.03:01:53::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high 
+TRACE::2022-02-06.03:01:53::SCWMssOS::-mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-02-06.03:01:53::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-
+TRACE::2022-02-06.03:01:53::SCWMssOS::high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-02-06.03:01:53::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2022-02-06.03:01:53::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high
+TRACE::2022-02-06.03:01:53::SCWMssOS:: -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:54::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-02-06.03:01:54::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-02-06.03:01:54::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hi
+TRACE::2022-02-06.03:01:54::SCWMssOS::gh -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-02-06.03:01:56::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2022-02-06.03:01:56::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2022-02-06.03:01:56::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-02-06.03:01:56::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xtmrctr_options.o microblaze_0/lib/micro
+TRACE::2022-02-06.03:01:56::SCWMssOS::blaze_disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/xemaclite_intr.o microblaze_0/lib/xil_testio.o microblaze_
+TRACE::2022-02-06.03:01:56::SCWMssOS::0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_flush_cache_ext.
+TRACE::2022-02-06.03:01:56::SCWMssOS::o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_cache.o microblaze_0/lib/inbyte
+TRACE::2022-02-06.03:01:56::SCWMssOS::.o microblaze_0/lib/xiic_multi_master.o microblaze_0/lib/xiic_sinit.o microblaze_0/lib/microblaze_exception_handler.o microblaz
+TRACE::2022-02-06.03:01:56::SCWMssOS::e_0/lib/xbram_g.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/xtmrctr_intr.o microblaze
+TRACE::2022-02-06.03:01:56::SCWMssOS::_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microb
+TRACE::2022-02-06.03:01:56::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xgpio_g.o microblaze_0/
+TRACE::2022-02-06.03:01:56::SCWMssOS::lib/xuartlite_g.o microblaze_0/lib/xiic_master.o microblaze_0/lib/xemaclite.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xil
+TRACE::2022-02-06.03:01:56::SCWMssOS::_util.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xiic_intr.o micr
+TRACE::2022-02-06.03:01:56::SCWMssOS::oblaze_0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xintc_g.o microblaz
+TRACE::2022-02-06.03:01:56::SCWMssOS::e_0/lib/xiic_g.o microblaze_0/lib/xiic_l.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyt
+TRACE::2022-02-06.03:01:56::SCWMssOS::e.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xiic_slave.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaz
+TRACE::2022-02-06.03:01:56::SCWMssOS::e_0/lib/xil_testmem.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/microblaze_update_icache.o microblaze
+TRACE::2022-02-06.03:01:56::SCWMssOS::_0/lib/microblaze_sleep.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xintc_opt
+TRACE::2022-02-06.03:01:56::SCWMssOS::ions.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xuartlite.o microblaze_0/lib/micro
+TRACE::2022-02-06.03:01:56::SCWMssOS::blaze_update_dcache.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o mic
+TRACE::2022-02-06.03:01:56::SCWMssOS::roblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xil_mem.o microblaze_0
+TRACE::2022-02-06.03:01:56::SCWMssOS::/lib/xtmrctr_g.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xiic.o microblaze_0/lib/xbram.o microblaze_0/lib/
+TRACE::2022-02-06.03:01:56::SCWMssOS::_exit.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/microblaze_i
+TRACE::2022-02-06.03:01:56::SCWMssOS::nit_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xtmrctr.o microbla
+TRACE::2022-02-06.03:01:56::SCWMssOS::ze_0/lib/xiic_dyn_master.o microblaze_0/lib/xintc.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_invalidate_c
+TRACE::2022-02-06.03:01:56::SCWMssOS::ache_ext_range.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/pvr.o microblaze_0/lib/xgpio.o microblaze_0/lib/xiic_options.o 
+TRACE::2022-02-06.03:01:56::SCWMssOS::microblaze_0/lib/xemaclite_l.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xi
+TRACE::2022-02-06.03:01:56::SCWMssOS::l_clocking.o microblaze_0/lib/xemaclite_g.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/xemaclite_sinit.o 
+TRACE::2022-02-06.03:01:56::SCWMssOS::microblaze_0/lib/xgpio_extra.o microblaze_0/lib/xio.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/xiic_stats.o
+TRACE::2022-02-06.03:01:56::SCWMssOS:: microblaze_0/lib/xemaclite_selftest.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xtmrctr
+TRACE::2022-02-06.03:01:56::SCWMssOS::_sinit.o microblaze_0/lib/xiic_selftest.o microblaze_0/lib/fcntl.o microblaze_0/lib/microblaze_init_icache_range.o
+
+TRACE::2022-02-06.03:01:56::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-02-06.03:01:57::SCWMssOS::Copying to export directory.
+TRACE::2022-02-06.03:01:57::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-02-06.03:01:57::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-02-06.03:01:57::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-02-06.03:01:57::SCWSystem::Completed Processing the sysconfig microblaze_min
+LOG::2022-02-06.03:01:57::SCWPlatform::Completed generating the artifacts for system configuration microblaze_min
+TRACE::2022-02-06.03:01:57::SCWPlatform::Started preparing the platform 
+TRACE::2022-02-06.03:01:57::SCWSystem::Writing the bif file for system config microblaze_min
+TRACE::2022-02-06.03:01:57::SCWSystem::dir created 
+TRACE::2022-02-06.03:01:57::SCWSystem::Writing the bif 
+TRACE::2022-02-06.03:01:57::SCWPlatform::Started writing the spfm file 
+TRACE::2022-02-06.03:01:57::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-02-06.03:01:57::SCWPlatform::Completed generating the platform
+TRACE::2022-02-06.03:01:57::SCWMssOS::Saving the mss changes F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:01:57::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-06.03:01:57::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-06.03:01:57::SCWMssOS::Commit changes completed.
+TRACE::2022-02-06.03:01:57::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:01:57::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:01:57::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:01:57::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:01:57::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:01:57::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:01:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-02-06.03:01:57::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-02-06.03:01:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:01:57::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:01:57::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:01:57::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:01:57::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_min",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_min",
+	"platHandOff":	"F:/Documents/FPGA/Projects/microblaze/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_min",
+	"systems":	[{
+			"systemName":	"microblaze_min",
+			"systemDesc":	"microblaze_min",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_min",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"594e24a49243f99d56ad4408a7a55eab",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-02-06.03:01:57::SCWPlatform::updated the xpfm file.
+TRACE::2022-02-06.03:01:57::SCWPlatform::Trying to open the hw design at F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:01:57::SCWPlatform::DSA given F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:01:57::SCWPlatform::DSA absoulate path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:01:57::SCWPlatform::DSA directory F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw
+TRACE::2022-02-06.03:01:57::SCWPlatform:: Platform Path F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/hw/design_1_wrapper.xsa
+TRACE::2022-02-06.03:01:57::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-02-06.03:01:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-02-06.03:01:57::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-02-06.03:01:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-06.03:01:58::SCWMssOS::Checking the sw design at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-06.03:01:58::SCWMssOS::DEBUG:  swdes dump  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-06.03:01:58::SCWMssOS::Sw design exists and opened at  F:/Documents/FPGA/Projects/microblaze_min/microblaze_min/microblaze_0/standalone_domain/bsp/system.mss

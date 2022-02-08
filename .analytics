@@ -1,0 +1,55 @@
+timestamp=[2022-02-06 02:01:41], mode=WORKBENCH_START, duration=0:00:05.831, duration_ms=5831, data={}
+timestamp=[2022-02-06 02:01:42], mode=WORKBENCH_UI_INIT, duration=0:00:00.615, duration_ms=615, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2022-02-06 02:01:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:03.450, duration_ms=3450, data={}
+timestamp=[2022-02-06 02:08:10], mode=PLATFORM_CREATION, duration=0:00:12.014, duration_ms=12014, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2022-02-06 02:09:09], mode=PLATFORM_CREATION, duration=0:00:06.113, duration_ms=6113, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2022-02-06 02:09:32], mode=PLATFORM_GENERATION, duration=0:00:03.159, duration_ms=3159, data={name=microblaze_min}
+timestamp=[2022-02-06 02:11:45], mode=APP_CREATION, duration=0:00:07.532, duration_ms=7532, data={name=microblaze_min_app, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2022-02-06 02:12:22], mode=PLATFORM_GENERATION, duration=0:00:03.004, duration_ms=3004, data={name=design_1_wrapper}
+timestamp=[2022-02-06 02:12:38], mode=PLATFORM_GENERATION, duration=0:00:02.516, duration_ms=2516, data={name=design_1_wrapper}
+timestamp=[2022-02-06 02:12:39], mode=BUILD, duration=0:00:00.371, duration_ms=371, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 02:12:39], mode=BUILD, duration=0:00:00.200, duration_ms=200, data={name=microblaze_min_app_system, configuration=Debug, clean_build=true}
+timestamp=[2022-02-06 02:12:41], mode=BUILD, duration=0:00:02.086, duration_ms=2086, data={name=microblaze_min_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 02:13:33], mode=PLATFORM_GENERATION, duration=0:00:02.532, duration_ms=2532, data={name=design_1_wrapper}
+timestamp=[2022-02-06 02:13:45], mode=PLATFORM_GENERATION, duration=0:00:03.018, duration_ms=3018, data={name=design_1_wrapper}
+timestamp=[2022-02-06 02:13:45], mode=BUILD, duration=0:00:00.265, duration_ms=265, data={name=microblaze_min_app, configuration=Debug, clean_build=true}
+timestamp=[2022-02-06 02:13:45], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=microblaze_min_app_system, configuration=Debug, clean_build=true}
+timestamp=[2022-02-06 02:14:14], mode=PLATFORM_GENERATION, duration=0:00:02.515, duration_ms=2515, data={name=design_1_wrapper}
+timestamp=[2022-02-06 02:14:15], mode=BUILD, duration=0:00:00.569, duration_ms=569, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 02:14:17], mode=BUILD, duration=0:00:01.951, duration_ms=1951, data={name=microblaze_min_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 02:59:50], mode=WORKBENCH_START, duration=0:00:09.084, duration_ms=9084, data={}
+timestamp=[2022-02-06 02:59:51], mode=WORKBENCH_UI_INIT, duration=0:00:01.131, duration_ms=1131, data={editors_count=1, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2022-02-06 02:59:56], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:05.172, duration_ms=5172, data={}
+timestamp=[2022-02-06 03:00:43], mode=PLATFORM_CREATION, duration=0:00:10.695, duration_ms=10695, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2022-02-06 03:00:53], mode=PLATFORM_GENERATION, duration=0:00:03.625, duration_ms=3625, data={name=microblaze_min}
+timestamp=[2022-02-06 03:01:58], mode=PLATFORM_GENERATION, duration=0:00:09.400, duration_ms=9400, data={name=microblaze_min}
+timestamp=[2022-02-06 03:03:05], mode=APP_CREATION, duration=0:00:01.769, duration_ms=1769, data={name=microblaze_min_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=microblaze_min, application_type=application}
+timestamp=[2022-02-06 03:04:01], mode=BUILD, duration=0:00:01.405, duration_ms=1405, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 16:34:52], mode=WORKBENCH_START, duration=0:00:19.006, duration_ms=19006, data={}
+timestamp=[2022-02-06 16:34:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.122, duration_ms=122, data={}
+timestamp=[2022-02-06 16:34:54], mode=WORKBENCH_UI_INIT, duration=0:00:01.572, duration_ms=1572, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,microblaze_min,microblaze_min_app,microblaze_min_app_system}
+timestamp=[2022-02-06 17:15:32], mode=BUILD, duration=0:00:00.821, duration_ms=821, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 17:18:57], mode=BUILD, duration=0:00:01.541, duration_ms=1541, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:23:48], mode=BUILD, duration=0:00:00.451, duration_ms=451, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:23:49], mode=BUILD, duration=0:00:00.198, duration_ms=198, data={name=microblaze_min_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:24:13], mode=BUILD, duration=0:00:00.394, duration_ms=394, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:24:14], mode=BUILD, duration=0:00:00.146, duration_ms=146, data={name=microblaze_min_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:24:26], mode=BUILD, duration=0:00:00.343, duration_ms=343, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:24:27], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=microblaze_min_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:24:44], mode=BUILD, duration=0:00:00.347, duration_ms=347, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:25:41], mode=BUILD, duration=0:00:00.409, duration_ms=409, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:25:42], mode=BUILD, duration=0:00:00.131, duration_ms=131, data={name=microblaze_min_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:25:53], mode=BUILD, duration=0:00:00.332, duration_ms=332, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:25:53], mode=BUILD, duration=0:00:00.139, duration_ms=139, data={name=microblaze_min_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:26:04], mode=BUILD, duration=0:00:00.342, duration_ms=342, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:26:05], mode=BUILD, duration=0:00:00.132, duration_ms=132, data={name=microblaze_min_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:26:58], mode=BUILD, duration=0:00:00.412, duration_ms=412, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:27:11], mode=BUILD, duration=0:00:00.890, duration_ms=890, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:27:47], mode=BUILD, duration=0:00:00.406, duration_ms=406, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:27:47], mode=BUILD, duration=0:00:00.135, duration_ms=135, data={name=microblaze_min_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:27:56], mode=BUILD, duration=0:00:00.766, duration_ms=766, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:27:56], mode=BUILD, duration=0:00:00.182, duration_ms=182, data={name=microblaze_min_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:34:10], mode=BUILD, duration=0:00:00.757, duration_ms=757, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:34:10], mode=BUILD, duration=0:00:00.208, duration_ms=208, data={name=microblaze_min_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 18:39:28], mode=BUILD, duration=0:00:00.766, duration_ms=766, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
+timestamp=[2022-02-06 19:29:28], mode=BUILD, duration=0:00:00.202, duration_ms=202, data={name=microblaze_min_app, configuration=Debug, clean_build=false}
